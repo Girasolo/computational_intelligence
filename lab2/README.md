@@ -1,7 +1,7 @@
 s280117
 Worked in group with
 291871
-consulted with 302294 and 
+consulted with 302294 and 292113
 
 ##Vary population size (fitness call=20000)
 time: 0.96 fittest: (100, -245)
