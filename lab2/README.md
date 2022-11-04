@@ -47,6 +47,8 @@ time: 1.21 fittest: (100, -229)
 time: 4.83 fittest: (500, -1460)
 time: 11.77 fittest: (1000, -3728)
 time: 28.85 fittest: (2000, -9209)
+time: 107.20 fittest: (5000, -24806)
+time: 291.85 fittest: (10000, -55340)
 
 #Strategy2
 time: 0.14 fittest: (5, -5)
