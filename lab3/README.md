@@ -53,4 +53,13 @@ Basically, when the agent is taking an action, a random number is generated. If 
 ## Reinforcement Learning: Learning algorithm
 The learning algorithm consists simply in playing a game between the agent and an opponent player that plays with optimal strategy based on NimSum. If it win the game, it receives a reward of +1, otherwise it obtains -1. Based on the reward the agent has received, values of the moves played on a certain state in the history are updated. This update is based on the reward obtained and a parameter alpha. The learning algorithm takes into account also the opponent move and it is performed in two ways: when the agent take the first move, and when the agent doesn't.
 
-## Some results: soon
+## Some results: 
+A tournament has been set in order to evaluate the best strategy among the ones based on evaluation. The algorithms have ben ranked based on the result obained against randomSmartNim(), which is the player that plays random moves but able to recognise if he is in a winning situation.
+| res  | algorithm                          |
+| 0.45 | E2longestVSshortest_allVS1smart    |
+| 0.1  | E2longestVSshortest_allVS1allsmart | 
+| 0.14 | E2randomVSshortest_allVS1smart     | 
+| 0.47 | EsafetySmart                       | 
+| 0.45 | E3shortestVSlongest_percentage     | 
+
+
