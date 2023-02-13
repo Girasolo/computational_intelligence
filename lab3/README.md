@@ -55,11 +55,44 @@ The learning algorithm consists simply in playing a game between the agent and a
 
 ## Some results: 
 A tournament has been set in order to evaluate the best strategy among the ones based on evaluation. The algorithms have ben ranked based on the result obained against randomSmartNim(), which is the player that plays random moves but able to recognise if he is in a winning situation.
+
 | res  | algorithm                          |
+| -----| ---------------------------------- |
 | 0.45 | E2longestVSshortest_allVS1smart    |
 | 0.1  | E2longestVSshortest_allVS1allsmart | 
 | 0.14 | E2randomVSshortest_allVS1smart     | 
 | 0.47 | EsafetySmart                       | 
 | 0.45 | E3shortestVSlongest_percentage     | 
+
+
+Agent trained with optimal strategy (nimsum):
+| nimsize = 7 , iterations = 100000         | 
+| res  | algorithm                          |
+| -----| ---------------------------------- |
+| 0.91 | optional                           |
+|	1.0  | random smart | 
+| 1.0  |       random all|
+|	1.0  | e2long     | 
+
+
+| nimsize = 9, iterations = 100000                               | 
+| res  | algorithm                          |
+| -----| ---------------------------------- |
+| 0.06 | optional                           |
+|	1.0  | random smart | 
+| 1.0  |       random all|
+|	1.0  | e2long     |
+
+| nimsize = 9, iterations = 200000                               | 
+| res  | algorithm                          |
+| -----| ---------------------------------- |
+| 0.32| optional                           |
+|	0.99  | random smart | 
+| 1.0  |       random all|
+|	1.0  | e2long     |
+
+
+
+
 
 
