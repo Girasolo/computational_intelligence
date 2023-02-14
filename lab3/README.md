@@ -69,7 +69,7 @@ Agent trained with optimal strategy (nimsum):
 | nimsize = 7 , iterations = 100000         | 
 | res  | algorithm                          |
 | -----| ---------------------------------- |
-| 0.91 | optional                           |
+| 0.91 | optimal                           |
 |	1.0  | random smart | 
 | 1.0  |       random all|
 |	1.0  | e2long     | 
@@ -78,7 +78,7 @@ Agent trained with optimal strategy (nimsum):
 | nimsize = 9, iterations = 100000                               | 
 | res  | algorithm                          |
 | -----| ---------------------------------- |
-| 0.06 | optional                           |
+| 0.06 | optimal                           |
 |	1.0  | random smart | 
 | 1.0  |       random all|
 |	1.0  | e2long     |
@@ -86,7 +86,7 @@ Agent trained with optimal strategy (nimsum):
 | nimsize = 9, iterations = 200000                               | 
 | res  | algorithm                          |
 | -----| ---------------------------------- |
-| 0.32| optional                           |
+| 0.32| optimal                           |
 |	0.99  | random smart | 
 | 1.0  |       random all|
 |	1.0  | e2long     |
